@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100px;
+  background-image: url(imgs/header.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.header-items {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 300;
+}
+
+.header-items:hover {
+  color: #bf642e;
+}
+
+.left-header p {
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  margin-left: 35px;
+  text-align: center;
+}

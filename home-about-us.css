@@ -1,0 +1,68 @@
+.about-us-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.about-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.about-us img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-us p {
+  text-align: center;
+}
+
+.about-us h1 {
+  text-align: center;
+}
+
+.our-mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.our-vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.our-vision p {
+  width: 400px;
+}
+
+.button-div{
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  padding: 8px 13px 8px 13px;
+  background: white;
+  border: 1px solid rgb(103, 103, 103);
+  color: black;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: rgb(103, 103, 103);
+  color: white;
+}
